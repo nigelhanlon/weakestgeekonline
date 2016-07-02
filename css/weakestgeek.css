@@ -44,3 +44,16 @@
   background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
   text-decoration: none;
 }
+
+.main-menu {
+  display:none;
+}
+
+.help-menu { display: none; }
+.help-menu h2 { color: white; text-align:center; }
+.help-menu p { color: white; font-size: 20px; text-align: left;}
+
+.credits-menu {}
+.credits-menu h2 { color: white; text-align:center; }
+.credits-menu p { color: white; font-size: 20px; text-align: left;}
+.credits-menu a { color: black; font-size: 20px; text-align: left; text-decoration: underline;}
