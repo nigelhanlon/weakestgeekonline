@@ -8,6 +8,8 @@
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/weakestgeek.css">
+    <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
+
 
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -107,8 +109,6 @@
       </div>                
     </div>
 
-
-
     <div class="container game-screen">
       <div class="row">
         <div class="col-xs-12 col-md-12 banner">
@@ -116,13 +116,38 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-xs-10 col-md-4 col-xs-offset-1 col-md-offset-4">
-        <p>Game Screen</p>
+        <div class="col-xs-4 col-md-4">
+          <span class="read-out" id="bank"><i class="fa fa-money" aria-hidden="true"></i> 500</span>
+        </div>
+        <div class="col-xs-4 col-md-4 score-div">
+          <span class="read-out" id="score"><i class="fa fa-gamepad" aria-hidden="true"></i> 230</span>
+        </div>
+        <div class="col-xs-4 col-md-4 timer-div">
+          <span class="read-out" id="timer"><i class="fa fa-clock-o" aria-hidden="true"></i> 60s</span>
+        </div>                
+      </div>
+
+      <div class="row question-div">
+        <div class="col-xs-12 col-md-4 col-md-offset-4">
+          <pre>What kind of poetry is described as the third worst poetry in the Universe in "The Hitch Hikers Guide to the Galaxy"?</pre>
         </div>
       </div>
+
       <div class="row">
         <div class="col-xs-10 col-md-4 col-xs-offset-1 col-md-offset-4">
-          <button class="btn">Back to Menu</button>
+          <button class="btn btn-answer">Vogon</button>
+        </div>
+        <div class="col-xs-10 col-md-4 col-xs-offset-1 col-md-offset-4">
+          <button class="btn btn-answer">Klingon</button>
+        </div>
+        <div class="col-xs-10 col-md-4 col-xs-offset-1 col-md-offset-4">
+          <button class="btn btn-answer">Hipster</button>
+        </div>                
+      </div>
+
+      <div class="row">
+        <div class="col-xs-10 col-md-4 col-xs-offset-1 col-md-offset-4">
+          <button class="btn btn-quit">Quit</button>
         </div>
       </div>            
     </div>

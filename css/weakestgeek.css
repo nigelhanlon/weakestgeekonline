@@ -1,3 +1,7 @@
+h2 {color: white; text-align:center; }
+p { color: white; font-size: 20px; text-align: left;}
+a { color: black; font-size: 20px; text-align: left; text-decoration: underline;}
+
 .background {
   background: #3AA0C7;
 }
@@ -50,8 +54,29 @@
 }
 
 .btn-start:hover { 
-  background: #15B915;
+  background: #15B915;  
 }
+
+.btn-quit {
+  background: red;
+}
+
+.read-out { color: white; font-size: 20px; }
+.score-div{ text-align: center; }
+.timer-div{ text-align: right; }
+
+.btn-answer{
+  background: #5DDB34;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.question-div {
+  margin-top: 10px;
+}
+
+.question-div pre { min-height: 100px; }
+/**************** Game Screens ****************/
 
 .main-menu {
   display:none;
@@ -60,25 +85,16 @@
 .help-menu { 
   display: none;
 }
-.help-menu h2 { color: white; text-align:center; }
-.help-menu p { color: white; font-size: 20px; text-align: left;}
 
 .credits-menu {
   display:none;  
 }
-.credits-menu h2 { color: white; text-align:center; }
-.credits-menu p { color: white; font-size: 20px; text-align: left;}
-.credits-menu a { color: black; font-size: 20px; text-align: left; text-decoration: underline;}
-
 
 .start-screen {
-  
+  display:none;
 }
-.start-screen h2 { color: white; text-align:center; }
-.start-screen p { color: white; font-size: 20px; text-align: left;}
 
-.game-screen {
-  display:none;  
+.game-screen {  
 }
 
 .score-screen {
